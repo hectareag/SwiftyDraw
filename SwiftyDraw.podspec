@@ -30,7 +30,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.1'
 
-  s.source_files = 'Source/**/*'
 
   # s.resource_bundles = {
   #   'SwiftyDraw' => ['SwiftyDraw/Assets/*.png']
@@ -39,4 +38,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'SwiftyDraw/**/*'
 end
